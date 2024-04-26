@@ -165,6 +165,6 @@ int16_t WatchySolarNoon::julianDate(tmElements_t currentTime) {
 }
 */
 float WatchySolarNoon::percentOfYear(tmElements_t currentTime) {
-  return ((makeTime(currentTime) + 864000) % 31556952) / 31556952.0;
+  return ((makeTime(currentTime) - settings.gmtOffset + 864000) % 31556952) / 31556952.0;
 }
 

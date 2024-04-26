@@ -1,5 +1,7 @@
 # watchy_solar_noon
 
+Tested with Watchy 1.4.10
+
 ![](watchy_solar_noon.jpg)
 
 Earth image based off
